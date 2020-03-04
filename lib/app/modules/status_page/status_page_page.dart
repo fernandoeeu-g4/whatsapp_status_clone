@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_status_clone/app/modules/status_page/widgets/StatusTile.dart';
 import 'package:whatsapp_status_clone/util/AppColors.dart';
 
 class StatusPagePage extends StatefulWidget {
@@ -17,7 +18,7 @@ class _StatusPagePageState extends State<StatusPagePage> {
         decoration: BoxDecoration(color: AppColor.primary),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: <Widget>[Text('status do zap')],
+          children: <Widget>[StatusTile()],
         ),
       ),
     );
